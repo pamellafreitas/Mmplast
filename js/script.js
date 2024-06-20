@@ -67,7 +67,7 @@ $(window).on('resize', function(){
 document.querySelectorAll('.orcamento-btn').forEach(function(button) {
     button.addEventListener('click', function() {
         const item = this.getAttribute('data-item');
-        const telefone = '5521981440021'; 
+        const telefone = '5521964870598'; 
 
         
         const now = new Date();
