@@ -1,0 +1,242 @@
+.navbar {
+    border: 1px solid rgba(9, 26, 55, 0.203);
+}
+
+.container-sobre {
+    background-color: rgb(203, 232, 230, 0.4);
+    
+}
+
+.container-contato {
+    margin-block: -1rem;
+    padding-block: 0.5rem;
+}
+
+.nav-contato {
+    background-color: #00B38A;
+}
+
+.nav-contato a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav-contato p {
+    font-size: 0.8rem;
+}
+
+.nav-contato p{
+    color: #fff;
+    opacity: 0.8;
+
+}
+
+.titulo-sobre {
+    left: 60%;
+    font-family: "poppins" sans-serif;
+    color: #fff;
+}
+
+.titulo-sobre{
+    font-size: 4rem;
+}
+
+.titulo-sobre p {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    opacity: 0.8;
+}
+
+.banner2 {
+    display: none;
+}
+
+
+/* Texto sobre */
+.sobre-mmplast {
+    margin-bottom: 1rem;
+}
+
+.texto-sobre h2 {
+    color: #0B2B64;
+    margin-left: 0.5rem;
+}
+
+.texto-sobre p{
+    color: #0B2B64;
+     
+}
+
+.row-sobre {
+    padding-block: 4rem;
+}
+
+.card {
+    margin: 1rem auto;
+}
+
+.card-body2 {
+    color: #0B2B64;
+}
+
+/* Conhecer serviços */
+.conhecer-produtos {
+    background-color: #134091;
+    color: #fff;
+}
+
+.chamada-produtos .btn {
+    position: relative;
+    right: 10rem; 
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.8rem 2rem;
+}
+
+.chamada-produtos .btn:hover {
+    background-color: #00B38A;
+}
+
+.chamada-produtos {
+    padding-block: 4rem;
+}
+
+.chamada-produtos br {
+    display: none;
+}
+
+
+@media (min-width:766px) and (max-width: 1200px) {
+
+    .sobre-mmplast {
+        margin-top: -2rem;
+    }
+
+    .titulo-sobre h1 {
+        font-size: 2.5rem;
+    }
+
+    .titulo-sobre p {
+        font-size: 1.1rem;
+    }
+
+    .chamada-produtos br {
+        display: block;
+    }
+
+    .chamada-produtos .btn {
+        position: relative;
+        right: 8rem; 
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 0.8rem 2rem;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .banner2 {
+        display: block;
+    }
+
+    .banner1 {
+        display: none;
+    }
+    
+    .titulo-sobre h1 {
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .titulo-sobre p {
+        font-size: 0.9rem;
+    }
+
+    .sobre-mmplast{
+        margin-top: -2rem;
+    }
+
+    .chamada-produtos br {
+        display: block;
+    }
+
+    .chamada-produtos .btn {
+        position: relative;
+        right: 0rem; 
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+
+    .sobre-mmplast{
+        margin-top: -2rem;
+    }
+
+    .banner2 {
+        display: block;
+    }
+
+    .banner1 {
+        display: none;
+    }
+
+    .titulo-sobre h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .titulo-sobre p {
+        font-size: 0.8rem;
+    }
+
+    .chamada-produtos br {
+        display: block;
+    }
+
+    .chamada-produtos h5 {
+        font-size: 1rem;
+    }
+
+    .chamada-produtos .btn {
+        position: relative;
+        right: 0rem; 
+    }
+}
+
+@media (min-width: 320px) and (max-width: 481px) {
+    .banner2 {
+        display: block;
+    }
+
+    .banner1 {
+        display: none;
+    }
+
+    .titulo-sobre h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .titulo-sobre p {
+        font-size: 0.7rem;
+    }
+
+    .texto-sobre h2{
+        margin-top: -1rem;
+    }
+
+    .chamada-produtos h5 {
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .chamada-produtos .btn {
+        position: relative;
+        right: -0.5rem; 
+        padding: 0.02rem 0.8rem;
+        height: 3rem;
+    }
+}
